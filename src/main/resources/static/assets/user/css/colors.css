@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.nav_bg_red {
+	background-color: #EB4C5E !important;
+}
+
+.red_flash_card {
+	background-color: #EB4D5E !important;
+}
+
+.grey_flash_card {
+	background-color: #707070 !important;
+}
+
+.text_white {
+	color: #F5F5F5 !important;
+}
+
+.text_grey {
+	color: #707070 !important;
+}
+
+.text_white_2{
+	color: #FAFAFA !important;
+}
+
+.green_tag{
+	background-color: #5FC447 !important;
+}
+
+.warning_tag {
+	background-color: #F69431 !important;
+}
+
+.red_circle {
+	background: rgb(249,130,143);
+	background: radial-gradient(circle, rgba(249,130,143,1) 0%, rgba(235,77,94,1) 100%);
+}
+
+.text-red {
+	color: #F05F6F !important;
+}

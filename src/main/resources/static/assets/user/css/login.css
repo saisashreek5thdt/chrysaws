@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.login{
+	width: 100% !important;
+	height: 1225px !important;
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,252,253,1) 5%, rgba(70,200,210,1) 80%, rgba(26,252,101,1) 100%);
+}
+
+.login-bg{
+	padding: 100px 8rem !important;
+	object-fit: cover !important;
+	max-width: 100% !important;
+}
+
+.login-box{
+	max-width: 100% !important;
+	width: 650px !important;
+	height: 850px !important;
+	background-image: url("../images/login_box@2x.png") !important;
+	background-repeat: no-repeat !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	position: relative !important;
+	margin-top: -17rem !important;
+}
+
+.login-box a{
+	list-style: none !important;
+	display: block !important;
+	color: #FAFAFA !important;
+	font-size: 23px !important;
+	text-transform: capitalize !important;
+	padding-top: 8px !important;
+	text-decoration: none !important;
+	text-align: center !important;
+}
+
+.login-box a:hover{
+	list-style: none !important;
+	display: block !important;
+	color: #FAFAFA !important;
+	font-size: 22px !important;
+	text-transform: capitalize !important;
+	padding-top: 8px !important;
+	text-decoration: none !important;
+}
+
+.login-input-box{
+	border-radius: 12px !important;
+	background-color: #FFFFFF !important;
+	width: 520px !important;
+	height: 85px !important;
+	display: flex !important;
+	flex-direction: row !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	position: static !important;
+	vertical-align: middle !important;
+}
+
+.login-input-box input {
+	border: 1px solid transparent;
+	padding: 22px 0;
+	font-size: 16px;
+	margin: 20px 0px !important;
+}
+
+input[type=email] {
+	background-color: #f1f1f1;
+	width: 520px !important;
+	height: 85px !important;
+	border-radius: 12px !important;
+	text-align: left !important;
+}
+
+input[type=password] {
+	background-color: #f1f1f1;
+	width: 520px !important;
+	height: 85px !important;
+	border-radius: 12px !important;
+	text-align: left !important;
+}
+
+button[type=submit] {
+	background-image: url("../images/login_btn@2x.png");
+	width: 250px !important;
+	height: 87px !important;
+	display: block !important;
+	background-repeat: no-repeat !important;
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: transparent !important;
+	border-style: none !important;
+	padding-top: 32px !important;
+}
+#login{
+
+	top:20%;
+	position: relative;
+	width:30%;
+	height:20%;
+	background: red;
+}

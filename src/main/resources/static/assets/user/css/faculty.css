@@ -1,0 +1,71 @@
+#facultybg{
+    top:10%;
+        height:660px;
+        overflow:hidden;
+    
+        background-repeat: no-repeat;
+      	background-size:cover;
+        background-image: url('../images/slider/faculty.png');
+    }
+
+
+    #facultyinfo{
+
+        background-size: 96%;
+        background-repeat: no-repeat;
+        box-shadow:1px 1px 1px 1px solid #474644;
+        height:350px;
+       
+
+    }
+
+    #facname{
+        position: relative;
+        height:40%;
+       width:100%;
+        top:-10%;
+        background-size:70%;
+        background-repeat: no-repeat;
+    }
+    #facbg{
+        bottom:-10%;
+        width:100%;
+        height:60%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+    #facultysocial{
+        position: absolute;
+        bottom: 3%;
+        left:1%;
+        width:100px;
+    
+    }
+
+    p{
+width: 70%;
+text-align: justify;
+color: #474644;
+font-size: 14px;
+
+    }
+    @media only screen and (max-width: 1000px){
+        #facultybg{ height:400px; 
+        }
+p{
+    width:80%;
+    font-size:10px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#facultysocial{
+bottom:0%;
+}
+
+#facname{
+    background-size: 60%;
+}
+
+
+    }
